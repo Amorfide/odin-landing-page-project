@@ -6,7 +6,6 @@
 .header {
     background-color: #1F2937;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
@@ -17,8 +16,11 @@
 }
 
 .left-links {
+    margin: 0;
+    padding: 0;
     color:#F9FAF8;
     font-size: 24px;
+    margin-left: 48px;
 }
 
 h1 {
@@ -54,4 +56,28 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+button {
+    background-color: #3882F6;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.secondary-txt {
+    max-width: 400px;
+    max-height: 300px;
+}
+
+img {
+    max-height: 250px;
 }
