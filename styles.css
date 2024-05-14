@@ -12,8 +12,10 @@ body {
 .header {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-right: 480px;
+    padding-left: 480px;
 }
 
 .header a{
@@ -41,11 +43,13 @@ ul, ul a{
 
 .description {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding-bottom: 80px;
     padding-top: 80px;
     background-color: #1F2937;
+    padding-right: 480px;
+    padding-left: 480px;
 }
 
 h1 {
@@ -61,7 +65,7 @@ h1 {
     max-height: 300px;
 }
 
-button {
+.description button {
     background-color: #3882F6;
     padding-left: 35px;
     padding-right: 35px;
@@ -122,6 +126,32 @@ button {
     font-weight: bold;
     padding-top: 0;
     padding-bottom: 40px;
+}
+
+.banner-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    margin-left: 480px;
+    margin-right: 480px;
+    padding: 20px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.banner-section button {
+    margin-left: 20px;
+    background-color: #3882F6;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
 }
 
 .footer {
