@@ -4,8 +4,6 @@
 } */
 
 body {
-    display: flex;
-    flex-direction: column;
     margin: 0;
 }
 
@@ -124,7 +122,6 @@ h1 {
 
 .illustration {
     max-width: 135px;
-    flex-wrap: wrap;
 }
 
 .quote-section {
